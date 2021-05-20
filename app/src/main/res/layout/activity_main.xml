@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bb"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bfecha"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="10dp"
+        android:text="FECHA"
+        app:backgroundTint="#7F91CF" />
+
+    <EditText
+        android:id="@+id/efecha"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bhora"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="50dp"
+        android:text="HORA"
+        app:backgroundTint="#7F91CF" />
+
+    <EditText
+        android:id="@+id/ehora"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/agenda"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="80dp"
+        android:text="Enviar Agendar "
+        app:backgroundTint="#7F91CF" />
+
+</LinearLayout>
