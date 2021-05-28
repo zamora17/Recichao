@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/bb"
-    tools:context=".Registro">
+    tools:context="com.movil.aplicacion.selectorfechahora.RegisterActivity">
 
     <EditText
 
@@ -29,7 +29,7 @@
 
     <EditText
 
-        android:id="@+id/munisipioRegistro"
+        android:id="@+id/municipioRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:hint="Direccion"
+        android:hint="Dirección"
         android:textColorHint="#FFFFFF" />
 
     <EditText
@@ -51,12 +51,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Emeil"
+        android:hint="Email"
         android:textColorHint="#FFFFFF" />
 
     <EditText
 
-        android:id="@+id/contraseñaRegistro"
+        android:id="@+id/passwordRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -69,6 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:onClick="Register"
         android:text="Registro"
         app:backgroundTint="#7F91CF" />
 </LinearLayout>

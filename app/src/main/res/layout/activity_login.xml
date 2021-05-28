@@ -6,20 +6,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/bb"
-    tools:context=".Login">
+    tools:context="com.movil.aplicacion.selectorfechahora.LoginActivity">
 
     <EditText
 
-        android:id="@+id/nombrelogin"
+        android:id="@+id/emailLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:hint="Nombre"
+        android:hint="Email"
         android:textColorHint="#FFFFFF" />
 
     <EditText
 
-        android:id="@+id/contraseñalogin"
+        android:id="@+id/passwordLogin"
         android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="70dp"
+        android:onClick="Login"
         android:text="Iniciar Sesion "
         app:backgroundTint="#7F91CF" />
 

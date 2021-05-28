@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/bb"
-    tools:context=".MainActivity">
+    tools:context="com.movil.aplicacion.selectorfechahora.AppointmentActivity">
 
     <Button
         android:id="@+id/bfecha"
@@ -41,10 +41,11 @@
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/agenda"
+        android:id="@+id/btnAgendar"
         android:layout_width="match_parent"
         android:layout_height="67dp"
         android:layout_marginTop="80dp"
+        android:onClick="ScheduleAppointment"
         android:text="Enviar Agendar "
         app:backgroundTint="#7F91CF" />
 
